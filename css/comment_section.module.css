@@ -1,0 +1,130 @@
+.comments{
+    display: flex;
+    flex-direction: column;
+    margin: 4%;
+}
+.comments img{
+    width: 5vw;
+    height: 5vw;
+    border-radius: 5vw;
+    background-color: rgb(202, 202, 202);
+}
+.user{
+    font-size: 2vw;
+}
+.comments_user a{
+    text-decoration: none;
+    color: black;
+    margin-left: 2%;
+}
+.comments_user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.comments_txt{
+    background-color: rgb(202, 202, 202);
+    width: 60%;
+    margin: 2%;
+    border-radius: 0.5vw;
+    padding: 1%;
+}
+.comments_txt .comments_date{
+    font-size: 1.5vw;
+    margin-left: 80%;
+}
+.comments_txt .comments_content{
+    font-size: 1.5vw;
+    width: 90%;
+}
+
+/*upload comment*/
+#upload_comments{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+#upload_comments form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+#upload_comments form textarea{
+    font-size: 1.5vw;
+}
+#upload_comments .sub{
+    background-color: rgb(233, 53, 21);
+    border: none;
+    color: white;
+    border-radius: 1vw;
+    font-size: 1.5vw;
+    margin-top: 2%;
+    width: 20%;
+    margin-left: 80%;
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+
+
+/*mobile style*/
+@media only screen and (max-width: 600px) {
+    .comments{
+        display: flex;
+        flex-direction: column;
+        margin: 4%;
+    }
+    .comments img{
+        width: 6vw;
+        height: 6vw;
+        border-radius: 6vw;
+        background-color: rgb(202, 202, 202);
+    }
+    .user{
+        font-size: 4vw;
+        margin-left: 5%;
+    }
+    .comments_user{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .comments_txt{
+        background-color: rgb(202, 202, 202);
+        width: 60%;
+        margin: 2%;
+        border-radius: 0.5vw;
+        padding: 1%;
+    }
+    .comments_txt .comments_date{
+        font-size: 2vw;
+        margin-left: 75%;
+    }
+    .comments_txt .comments_content{
+        font-size: 3vw;
+        width: 90%;
+    }
+    
+    /*upload comment*/
+    #upload_comments{
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    #upload_comments form{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+    #upload_comments form textarea{
+        font-size: 3vw;
+    }
+    #upload_comments .sub{
+        background-color: rgb(233, 53, 21);
+        border: none;
+        color: white;
+        border-radius: 1vw;
+        font-size: 3vw;
+        margin-top: 2%;
+        width: 20%;
+        margin-left: 80%;
+        font-family: 'Ubuntu', sans-serif; 
+    }    
+}

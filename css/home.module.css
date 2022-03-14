@@ -1,0 +1,253 @@
+.main_item{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+.main_item h3{
+    font-size: 1.2vw;
+    margin-left: 3%;
+    font-family: 'Ubuntu', sans-serif;
+}
+.main_item h1{
+    font-size: 2vw;
+    margin-left: 3%;
+    font-family: 'Ubuntu', sans-serif;
+}
+.main_item a{
+    text-decoration: none;
+    color: black;
+}
+
+/*first item of header*/
+.main_item_text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    width: 80%;
+}
+.main_img{
+    width: 58vw;
+    height: 40vw;
+    margin: 2%;
+}
+.main_item_text p{
+    margin-left: 4%;
+    font-size: 1.5vw;
+    width: 90%;
+}
+
+/* second items of header*/
+.column_main_item{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    margin-left: 4%;
+}
+.column_main_item p{
+    border-radius: 0.2vw;
+    width: 35%;
+    background-color: rgb(233, 53, 21);
+    color: white;
+    padding: 1%;
+    font-size: 1.2vw;
+    position: relative;
+    top: 12%;
+    left: 5%;
+    font-family: 'Ubuntu', sans-serif;
+}
+.column_main_item img{
+    width: 25vw;
+    height: 15vw;
+    margin-top: 8%;
+    margin-bottom: 2%;
+}
+.column_main_item img:hover{
+    opacity: 60%;
+}
+
+
+/*new posts*/
+.items{
+    padding-bottom: 2%;
+    border-bottom: 0.2vw solid rgb(220, 220, 220);
+    width: 90%;
+    margin-top: 10%;
+    margin-left: 7%;
+    display: flex;
+    flex-direction: row;
+}
+.items_text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 2%;
+}
+.items_text p{
+    font-size: 1.5vw;
+}
+.items_text a{
+    text-decoration: none;
+    color: black;
+}
+.items_text h3{
+    font-size: 2vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+.items_text .date{
+    position: relative;
+    top: 13%;
+    left: 80%;
+    color: black;
+}
+.items_text .author{
+    position: relative;
+    top: 22%;
+    left: 2%;
+    color: black;
+}
+.items_text .description{
+    width: 70%;
+    margin-top: 2%;
+    font-size: 1.5vw;
+}
+.items img{
+    position: relative;
+    top: 3vw;
+    left: 7vw;
+    width: 25vw;
+    height: 15vw;
+    border-radius: 0.5vw;
+}
+.news{
+    font-size: 3vw;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    margin-top: 15%;
+    color:rgb(134, 134, 134);
+}
+
+.item_category{
+    border-radius: 0.2vw;
+    width: 25%;
+    background-color: rgb(233, 53, 21);
+    color: white;
+    padding: 2%;
+    padding-right: 10%;
+    font-size: 1.2vw;
+    position: relative;
+    bottom: 7%;
+    right: 5%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/*page navigation style*/
+.pages{
+    padding: 0.3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(220, 220, 220);
+    width: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 50%;
+}
+.pages a{
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: white;
+}
+.pages a:hover{
+    color: rgb(233, 53, 21);
+}
+
+
+
+/*mobile style*/
+@media only screen and (max-width: 600px) {
+    .pages a{
+        font-size: 4vw;
+    }
+    .news{
+        font-size: 5vw;
+    }
+    .items_text h3{
+        font-size: 3.5vw;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .items_text p{
+        font-size: 2vw;
+        width: 40%;
+    }
+    .main_item h3{
+        font-size: 2vw;
+        margin-left: 3%;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .main_item h1{
+        font-size: 4vw;
+        margin-left: 3%;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .items_text .description{
+        width: 100%;
+        margin-top: 2%;
+        font-size: 2.5vw;
+    }
+    .items img{
+        position: relative;
+        top: 20%;
+        left: 7vw;
+        width: 30vw;
+        height: 20vw;
+        border-radius: 0.5vw;
+    }
+    .main_item_text p{
+        margin-left: 4%;
+        font-size: 3vw;
+        width: 90%;
+    }
+
+    .items_text .date{
+        position: relative;
+        top: 7%;
+        left: 80%;
+        color: black;
+    }
+    .items_text .author{
+        position: relative;
+        top: 15%;
+        left: 2%;
+        color: black;
+    }
+    .column_main_item p{
+        border-radius: 0.5vw;
+        width: 60%;
+        background-color: rgb(233, 53, 21);
+        color: white;
+        padding: 2%;
+        font-size: 2vw;
+        position: relative;
+        top: 8%;
+        left: 4%;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .column_main_item{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0%;
+        margin-left: 4%;
+    }
+    .main_item_text{
+        display: flex;
+        flex-direction: column;
+        margin-top: 6%;
+        width: 80%;
+    }
+
+}

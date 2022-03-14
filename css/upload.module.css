@@ -1,0 +1,184 @@
+.upload{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    background-color: rgb(220, 220, 220);
+    margin-left: 7%;
+    padding: 2%;
+    border-radius: 0.5vw;
+}
+.upload form{
+    display: flex;
+    flex-direction: column
+}
+.upload form label{
+    font-size: 2vw;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.upload form input{
+    margin-top: 2%;
+    font-size: 1.2vw;
+}
+.upload form textarea{
+    font-size: 1.2vw;
+}
+.upload h1{
+    font-size: 3vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+.upload .sub{
+    background-color: rgb(233, 53, 21);
+    border: none;
+    color: white;
+    border-radius: 1vw;
+    font-size: 1.5vw;
+    margin-top: 5%;
+    width: 40%;
+    margin-left: 30%;
+}
+.upload .sub:hover{
+    background-color: rgb(197, 45, 18);
+    cursor: pointer;
+}
+
+
+.upload img{
+    width: 50%;
+    height: 50%;
+    margin-left:25%;
+}
+/*buttons style*/
+
+.upload_profile:hover{
+    background-color: grey;
+}
+
+#uploadpost{
+    position: absolute;
+    width: 70%;
+    top: 25vw;
+    left: 15%;
+    display: none; 
+}
+
+#close_u{
+    width: 2%;
+    border: none;
+    font-size: 1.2vw;
+    position: absolute;
+    top: 28vw;
+    left: 73vw;
+    display: none;
+    color: rgb(233, 53, 21);
+}
+
+
+
+#edit_p{
+    position: absolute;
+    width: 70%;
+    top: 40vw;
+    left: 15%;
+    display: none; 
+}
+
+#close_p{
+    width: 2%;
+    border: none;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 43vw;
+    left: 73vw;
+    display: none;
+    color: rgb(233, 53, 21);
+}
+
+
+
+#close_ep{
+    width: 2%;
+    border: none;
+    font-size: 1.2vw;
+    position: absolute;
+    top: 55%;
+    left: 75%;
+    display: none;
+    color: rgb(233, 53, 21);
+}
+#edit_post{
+    position: absolute;
+    width: 70%;
+    top: 50%;
+    left: 15%;
+    display: none; 
+}
+
+
+
+/*mobile style*/
+@media only screen and (max-width: 600px) {
+    #edit_p{
+        position: absolute;
+        width: 70%;
+        top: 17%;
+        left: 15%;
+    }
+    
+    #close_p{
+        width: 4%;
+        border: none;
+        font-size: 2vw;
+        position: absolute;
+        top: 18%;
+        left: 72%;
+    }
+    #uploadpost{
+        position: absolute;
+        width: 70%;
+        top: 45vw;
+        left: 15%;
+    }
+    
+    #close_u{
+        width: 5%;
+        border: none;
+        font-size: 2vw;
+        position: absolute;
+        top: 48vw;
+        left: 72vw;
+        display: none;
+    }    
+
+    .upload form textarea{
+        font-size: 2vw;
+    }
+    .upload .sub{
+        background-color: rgb(233, 53, 21);
+        border: none;
+        color: white;
+        border-radius: 1vw;
+        font-size: 2vw;
+        margin-top: 5%;
+        width: 30%;
+        margin-left: 35%;
+    }
+
+    #close_ep{
+        width: 2%;
+        border: none;
+        font-size: 1.2vw;
+        position: absolute;
+        top: 38%;
+        left: 75%;
+        display: none;
+    }
+    #edit_post{
+        position: absolute;
+        width: 70%;
+        top: 35%;
+        left: 15%;
+        display: none; 
+    }
+}

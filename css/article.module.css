@@ -1,0 +1,153 @@
+/*article*/
+.article{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+.article h3{
+    font-size: 3vw;
+    font-family: 'Ubuntu', sans-serif;    
+}
+.article img{
+    margin-bottom: 5%;
+    margin-top: 5%;
+    width: 55vw;
+    height: 100%;
+    margin-left: 15%;
+    border-radius: 0.3vw;
+}
+.article .article_description{
+    font-size: 2vw;
+    margin-top: 2%;
+}
+.article .article_content{
+    font-size: 1.5vw;
+    width: 90%;
+    padding: 5%;
+    background-color: rgb(220, 220, 220);
+    border-radius: 0.2vw;
+}
+
+.article_date, .article_author{
+    font-size: 1.5vw;
+    font-family: 'Ubuntu', sans-serif; 
+}
+.article_date{
+    margin-left: 90%;
+    margin-top: 2%;
+}
+.article_author{
+    margin-bottom: 2%;
+    font-size: 2vw;
+}
+
+.comments_title{
+    color: rgb(220, 220, 220);
+    font-size: 4vw;
+    font-family: 'Ubuntu', sans-serif; 
+    margin:5%;
+}
+
+
+/*button showing comment upload*/
+.comment_sub{
+    background-color: rgb(233, 53, 21);
+    border: none;
+    width: 8%;
+    font-size: 1.5vw;
+    color: white;
+    border-radius: 0.5vw;
+    margin-left: 80%;
+    cursor: pointer;
+    padding: 0.2%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif; 
+    margin-top: 15%;
+}
+.comment_sub:hover{
+    background-color: rgb(197, 45, 18);
+}
+
+
+
+/*edit button*/
+#edit_post_button{
+    background-color: rgb(233, 53, 21);
+    color: white;
+    border:none;
+    width: 10%;
+    font-size: 1.5vw;
+    padding: 0.2%;
+    border-radius: 0.5vw;
+    position: relative;
+    margin-bottom: 5%;
+    top: 10%;
+}
+#edit_post_button:hover{
+    cursor: pointer;
+    background-color: rgb(197, 45, 18);
+}
+
+/*mobile style*/
+@media only screen and (max-width: 600px) {
+    .article .article_content{
+        font-size: 4vw;
+        width: 80%;
+        padding: 10%;
+        background-color: rgb(220, 220, 220);
+        border-radius: 0.2vw;
+    }
+    .article h3{
+        font-size: 5vw;
+        font-family: 'Ubuntu', sans-serif;    
+    }
+    .article .article_description{
+        font-size: 4vw;
+        margin-top: 2%;
+    }
+    .article_date{
+        margin-left: 70%;
+        margin-top: 2%;
+        font-size: 4vw;
+    }
+    .article_author{
+        font-size: 4vw;
+    }
+    
+    
+    /*edit button*/
+#edit_post_button{
+    background-color: rgb(233, 53, 21);
+    color: white;
+    border:none;
+    width: 12%;
+    font-size: 3vw;
+    padding: 0.2%;
+    border-radius: 0.5vw;
+    position: relative;
+    margin-bottom: 5%;
+    top: 10%;
+}
+
+    /*button showing comment upload*/
+.comment_sub{
+    background-color: rgb(233, 53, 21);
+    border: none;
+    width: 15%;
+    font-size: 3vw;
+    color: white;
+    border-radius: 0.5vw;
+    margin-left: 80%;
+    cursor: pointer;
+    padding: 0.2%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif; 
+    margin-top: 15%;
+}
+.comment_sub:hover{
+    background-color: rgb(197, 45, 18);
+}
+}

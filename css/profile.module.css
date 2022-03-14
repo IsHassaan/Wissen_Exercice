@@ -1,0 +1,120 @@
+.user_data{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin-left: 5%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    background-color: rgb(220, 220, 220);
+    padding:2%;
+    padding-right: 5%;
+    border-radius: 1vw;
+}
+.user_data_text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+.user_data .user{
+    font-size: 3vw;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+.user_data .bio{
+    font-size: 1.5vw;
+    margin-top: 5%;
+    width: 200%;
+}
+.bio p{
+    width:20%;
+}
+.user_data .date{
+    font-size: 1.5vw;
+    margin-top: 20%;
+}
+.user_data .picture{
+    width: 15vw;
+    height: 15vw;
+    border-radius: 1vw;
+}
+
+.postupload{
+    width: 10%;
+    height: 10%;
+    border: none;
+    border-radius: 1vw;
+    background-color: rgb(233, 53, 21);
+    color: white;
+    font-size: 1.5vw;
+    padding: 0.3%;
+    margin-top: 16%;
+    margin-left: 2%;
+}
+
+.postupload:hover{
+    background-color: rgb(197, 45, 18);
+    cursor: pointer;    
+}
+
+.edit{
+    width: 8%;
+    height: 10%;
+    border: none;
+    border-radius: 1vw;
+    background-color: white;
+    color: black;
+    font-size: 1.5vw;
+    padding: 0.3%;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.edit:hover{
+    background-color: rgb(190, 190, 190);
+    cursor: pointer;
+}
+
+.news{
+    font-size: 3vw;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    color:rgb(134, 134, 134);
+}
+
+/*mobile style*/
+@media only screen and (max-width: 600px) {
+    .user_data .picture{
+        width: 15vw;
+        height: 15vw;
+        border-radius: 1vw;
+        margin-top: 5%;
+    }
+    .edit{
+        width: 20vw;
+        height: 4vw;
+        font-size: 3vw;
+        margin-top: 2%;
+    }       
+    .postupload{
+        margin-top: 23%;
+        width: 20vw;
+        height: 4vw;
+        font-size: 3vw;
+    }
+
+    .user_data .date{
+        font-size: 3vw;
+        width: 200%;
+    }
+    .user_data .bio{
+        font-size: 3vw;
+        width: 200%;
+        margin-top: 10%;
+    }
+    .user_data .user{
+        font-size: 5vw;
+        color: black;
+        font-family: 'Ubuntu', sans-serif;
+    }
+}
